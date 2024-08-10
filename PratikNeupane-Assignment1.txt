@@ -1,0 +1,46 @@
+Python Libraries
+
+1)Pandas
+-Pandas is a powerful Python library primarily which is primarily used for data analysis and data manipulation.Pandas is a open source tool and built on top of the Python Programming language.
+Series and DataFrames are the two key data structures that are widely used within Pandas.
+a)Series
+- A Series is a 1-D labelled array  that can hold elements without data type constraint.
+It is similar to a column in a database or spreadsheet.
+b)DataFrame
+- A Dataframe is a 2-D labelled data structur with columns.The columns can hold data of different data types.
+A DataFrame can be thought as a collection of Series,where each column in the DataFrame is an individual Series.
+
+
+2)NumPy
+-NumPy is a Python Library that provides support for multidimensional array ,derived objects like matrices,and provides with a collection of mathematical functions to operate on these arrays.
+The 'ndarray' is the core data structure in NumPy,that facilitates efficient storage and manipulation of data.
+Some  other core features of numpy are:
+-Support for arithmetic operation between arrays of different shapes called broadcasting
+-provision of various functions for linear algebra and random number generation
+
+3)TensorFlow
+-TensorFlow is a free and open source library for machine learning and artificial intelligence.
+It was originally developed by the Google Brain team for Google's internal use.TensorFlow can be used in a wide variety of programming languages like Python,Javascript ,C++ and Java.
+-The core data structure of TensorFlow is the tensors which is similar to multi-dimensional array
+-Graphs in Tensorflow represents the computational flow of the machine learning model,where nodes are operations and edges are tensors.
+-TensorFlow provides with Keras API,which is a high level API within TensorFlow for quickly building and training models.
+
+4)Keras
+-Keras is an open-source library that provides  a Python interface for Artifical Neural Networks. Keras was initially an independent software ,but later integrated into the TensorFlow library.
+Keras identifies itself with the phrase: "Keras:Deep Learning for humans".Keras simplifies the process of creating complex machine learning models by allowing users to focus on the architecture and functionality without giving much emphasis on the low-level details.
+Models are built by stacking layers,where layers can be Dense,Convo2D,LSTM,Dropout etc.
+Keras supports various types of Neural Networks like fully connected networks,CNNs and 
+RNNs.
+
+5)Sklearn
+-Sklearn is the abbreviated form for the popular open-source Machine learning library in Python, Scikit-learn.
+Sklearn provides with various supervised and unsupervised machine learning algorithms like linear regression,decision trees etc.It also provides tools for data preprocessing like scaling,normalization ,encoding categorical  variables etc.Various metrices and methods forevaluating model performance like cross validation,accuracy scores and confusion matrices are provided by Sklearn.
+Another important feature of Sklearn is the Pipeline,that allows to streamline the workflow by chaining multiple processing steps making it easier to handle complex data transformations and easy model building.Sklearn has fluent integration with above  mentioned libraries like NumPy and Pandas .
+
+6)Pytorch
+PyTorch is a machine learning framework that builds upon the Torch library, predominantly used in fields like computer vision and natural language processing. Originally developed by Meta AI, it is now overseen by the Linux Foundation. PyTorch underpins many deep learning projects, such as Tesla’s AutoPilot, Uber’s Pyro, and the Transformers library from Hugging Face.
+PyTorch features two key advancements:
+    GPU-Enhanced Tensor Operations: Delivers substantial computational speedup, akin to NumPy but with GPU acceleration.
+    Dynamic Neural Network Construction: Supports the creation of deep learning models through an automatic differentiation system that uses a tape-based approach.
+
+
